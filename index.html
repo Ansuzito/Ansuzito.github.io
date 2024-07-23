@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ansuz</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Ansuz Bogado</h1>
+            <h2>Diseñador grafico/comunity manager/diseñador web - Experto en adobe suit</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/985436547"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/ansuzbogado/"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy ANSUZ BOGADO.</span> Soy un diseñador grafico y diseñador web junior con amplia experiencia en el area de marketing y publicidad digital ,trabajando desde muy joven y de cerca en la promocion de distintas empresas ,tambien con la edicion de videos que lo realizo desde los 15 años de edad ,conocimientos de meta ads y de como dar una buena imagen a las marcas ,con experiencia siendo comunity manager realizando diseños campañas y videos a marcas influyentes en su rubro para  que promuevan la marca dandole un mejor enfoque al area comercial  </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            10-11-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            0985436547
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ansuzito@gmail.com
+                        </li>
+                        
+                        <li>
+                            <strong>Dirección</strong>
+                            avda del pueblo c/rio pilcomayo barrio cuatro mojones lambare
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Diseñador grafico/CM/Diseñador web/asistente de marketing/editor multimedia</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-android"></i>
+                            <span>android</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>Diseño web</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-video"></i>
+                            <span>edicion</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>libros</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                <a download="CV" href="recursos/Document (3).(1).pdf">Descargar cv</a>
+                
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>habilidades tecnicas </h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>canva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>adobe premiere</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>adobe after effects</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>habilidades profesionales </h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte digital  y Multimedia</h4>
+                        <span class="casa">Universidad americana </span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Durante mi primer año en la universidad estudiando diseño y animación digital, aprendí a utilizar varias herramientas esenciales en el diseño gráfico. Algunas de las principales herramientas que dominé incluyen Adobe Photoshop, Illustrator y After Effects. Estas herramientas me permitieron crear diversos proyectos visuales y animaciones, ampliando mi conjunto de habilidades y preparándome para futuros desafíos en el campo del diseño y la animación digital.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programacion y diseño web </h4>
+                        <span class="casa">Colegio nazaret</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Durante mi bachiller técnico en informática, adquirí conocimientos fundamentales en programación y diseño web que me han sido de gran utilidad. Aprendí a utilizar lenguajes de programación como HTML, CSS y JavaScript para crear y diseñar sitios web atractivos y funcionales. Además, comprendí los principios de usabilidad, accesibilidad y diseño responsivo, que son fundamentales para crear experiencias de usuario óptimas en la web. Estos conocimientos me han preparado para trabajar en el emocionante campo de la programación y diseño web, y estoy entusiasmado por seguir creciendo y aprendiendo en esta área./p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                  
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Diseño grafico/Diseño web </h4>
+                        <span class="casa">creadores py</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Durante mi pasantía y posterior empleo en la empresa de marketing y publicidad CREADORES PY, aprendí sobre diferentes estrategias de marketing y publicidad que se utilizan en la industria. Participé en la creación de campañas publicitarias, tanto en línea como fuera de línea, y pude ver de primera mano cómo se planifican, diseñan y ejecutan este tipo de proyectos. También aprendí a utilizar herramientas como Google Analytics y Hootsuite para analizar datos y gestionar las redes sociales de los clientes. Además, pude colaborar con un equipo multidisciplinario de diseñadores gráficos, redactores creativos y especialistas en marketing digital, lo que me permitió adquirir una visión integral del proceso creativo en la industria de la publicidad y el marketing. Esta experiencia me ha proporcionado una base sólida para seguir creciendo en este campo y me ha inspirado a buscar nuevas oportunidades para continuar aprendiendo y creciendo profesionalmente en el mundo del marketing y la publicidad.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Comunity manager</h4>
+                        <span class="casa">jardin de la paz </span>
+                        <span class="fecha">14-03-2024</span>
+                        <p>En mi anterior rol como community manager en una empresa funeraria, aprendí a manejar la sensibilidad y el respeto en la comunicación en un sector tan delicado. Mi responsabilidad era crear contenido para redes sociales que reflejara la seriedad y el respeto necesario en el ámbito funerario, al mismo tiempo que transmitiera empatía y profesionalismo en cada publicación. Este desafío me ayudó a mejorar mis habilidades en la creación de contenido para redes sociales y a desarrollar una mayor sensibilidad emocional en mi trabajo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ejecutivo comercial</h4>
+                        <span class="casa">jadrin de la paz </span>
+                        <span class="fecha">2024</span>
+                        <p>Como ejecutivo comercial en una empresa funeraria, adquirí habilidades en ventas sensibles y empáticas, ofreciendo servicios personalizados y respetuosos a clientes en situaciones de duelo. Desarrollé destrezas en empatía, escucha activa y negociación, creando relaciones sólidas y brindando un servicio de calidad en un entorno delicado como el funerario..</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="recursos/caricia1.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/caricia2.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.23.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>diseño creativo</h3>
+                        <p>fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.24 (1).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.24 (2).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.25 (2).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.26 (1).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.24.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-06-30 at 13.56.24 (3).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                    <div class="proyecto">
+                        <img src="recursos/WhatsApp Image 2024-07-01 at 17.50.53 (1).jpeg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                    
+                        </div>
+                     
+                    </div>  
+               
+                     
+                 </div>   
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-07-01 at 18.01.38.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                
+                    </div>
+                 
+                </div>    
+                <div class="proyecto">
+                    <img src="recursos/WhatsApp Image 2024-07-01 at 18.01.39.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                
+                    </div>
+                 
+                </div> 
+                <div class="proyecto">
+                    <img src="recursos/caricia1.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (1).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (2).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (3).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (4).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (6).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 ().jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (5).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="recursos/diseño 1 (8).jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+              
+                
+                
+                
+                
+
+
+
+  
+  
+
+                </div>
+
+            </div>
+          
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/ansuzito@gmail.com" method="POST" />
+                    <label for="name"></label>
+                    <input type="text"  placeholder="Tú Nombre" name="name"   id="name">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Dirección de correo" name="email" id="email">
+                    <label for="subject"></label>
+                    <input type="text" placeholder="Tema" name="subject" id="subject">
+                    <textarea name="coments" id="coments cols="30" rows="5" placeholder="Mensaje"></textarea>
+                   
+                    <button>
+                        <input class="button" type="submit" value="" hidden="">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                      
+                    </button>
+                        <input type="hidden" name="">
+                </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                avenida del pueblo c/casi rio pilcomayo ,cuatro mojones ,lambare
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                contacto:0985436547 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ansuzito@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
